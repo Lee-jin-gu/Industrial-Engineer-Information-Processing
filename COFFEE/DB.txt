@@ -1,0 +1,10 @@
+create table tbl_product_01(
+pcode varchar2(10) primary key,
+name varchar2(20),
+cost number(10)
+);
+
+create table tbl_shop_01(
+scode varchar2(10) primary key,
+sname varchar2(20)
+);
